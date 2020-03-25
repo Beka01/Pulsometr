@@ -81,6 +81,8 @@ $(document).ready(function(){
     validateForms('#consultation form');
     validateForms('#order form');
 
-    $('input[name=phone]').mask("+7 (999) 999-99-99");
+    $.mask.definitions['9'] = '';
+    $.mask.definitions['d'] = '[0-9]';
+    $('input[name=phone]').mask("+992 (dd) ddd-dd-dd");
 });
 
