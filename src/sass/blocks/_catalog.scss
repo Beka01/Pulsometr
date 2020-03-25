@@ -1,6 +1,6 @@
-.catalog{
+.catalog {
     padding-bottom: 100px;
-    &__tabs{
+    &__tabs {
         margin-top: 70px;
         list-style-type: none;
         display: flex;
@@ -9,7 +9,7 @@
         margin-bottom: 0;
         padding-left: 0;
     }
-    &__tab{
+    &__tab {
         width: 220px;
         height: 50px;
         border: 2px solid #d0d0d0;
@@ -23,20 +23,20 @@
         margin: 0 5px;
         cursor: pointer;
         transition: 0.5s all;
-        &:hover{
-            box-shadow: 3px 3px 10px #d0d0d0;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
             border: none;
         }
-        div{
+        div {
             transform: skewX(25deg);
         }
-        &_active{
+        &_active {
             color: #fff;
             background-color: $main-color;
             border: none;
         }
     }
-    &__content{
+    &__content {
         margin-top: 60px;
         display: none;
         justify-content: space-between;
@@ -150,7 +150,7 @@
                     left: -14px;
                     top: 7px;
                 }
-            } 
+            }
         }
         &__back {
             position: absolute;
@@ -166,6 +166,6 @@
             &:hover {
                 color: $main-color;
             }
-        }    
+        }
     }
 }
